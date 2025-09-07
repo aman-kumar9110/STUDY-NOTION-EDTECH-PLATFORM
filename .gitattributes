@@ -1,0 +1,29 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto eol=lf
+
+# Treat these file types as text
+*.js     text
+*.jsx    text
+*.ts     text
+*.tsx    text
+*.json   text
+*.css    text
+*.scss   text
+*.html   text
+*.md     text
+*.yml    text
+*.yaml   text
+
+# Mark images and other binaries as binary (no line ending changes)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.svg    binary
+*.ico    binary
+*.mp4    binary
+*.mp3    binary
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+*.eot    binary
