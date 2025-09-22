@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "http://localhost:4000/api/v1", // ✅ add baseURL if all APIs use same base
+  baseURL: "https://study-notion-edtech-platform-server.onrender.com/", // ✅ add baseURL if all APIs use same base
   withCredentials: true, // ✅ if your backend uses cookies or secure headers
 });
 
